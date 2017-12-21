@@ -11,7 +11,7 @@
       <th>Descrição</th>
       <th>Quantidade</th>
       <th>Detalhar</th>
-      <th>Remover</th>
+      <th>Excluir</th>
     </tr>
     @foreach ($produtos as $p)
     <tr class="{{ $p->quantidade <=1 ? 'danger' : '' }}">
