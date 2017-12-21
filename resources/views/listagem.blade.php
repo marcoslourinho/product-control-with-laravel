@@ -21,7 +21,7 @@
       <td>{{ $p->quantidade }}</td>
       <td>
         <a href="/produtos/mostra/{{$p->id}}">
-          Detalhar
+          Detalhes
         </a>
       </td>
       <td>
